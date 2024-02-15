@@ -101,7 +101,7 @@ export function AuthPage() {
           <Button className="mt-2" variant={"destructive"} onClick={handleSignOut}>Sign Out</Button>
         </div>
       ) : (
-        <div className='min-h-screen w-screen flex items-center flex-col justify-center p-4'>
+        <div className='h-screen w-screen flex items-center flex-col justify-center p-4'>
           <div className="w-full sm:3/5 xl:w-2/5">
             <div className='bg-neutral-900 p-6 grid items-start select-none gap-4 rounded-2xl'>
               <div className="space-y-2">
