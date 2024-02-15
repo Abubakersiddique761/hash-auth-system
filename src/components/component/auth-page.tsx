@@ -64,6 +64,8 @@ export function AuthPage() {
 
   const signOut = () => {
     setAuthenticatedUser(null);
+    setEmail('')
+    setPass('')
   };
 
   const addUser = async (user: User) => {
