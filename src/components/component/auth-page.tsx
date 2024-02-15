@@ -105,7 +105,7 @@ export function AuthPage() {
       ) : (
         <div className='h-screen w-screen flex items-center flex-col justify-center p-4'>
           <div className="w-full sm:3/5 xl:w-2/5">
-            <div className='dark:bg-neutral-900 bg-neutral-200/50 p-6 grid items-start select-none gap-4 rounded-2xl'>
+            <div className='dark:bg-neutral-900 p-6 grid items-start select-none gap-4 rounded-2xl'>
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold">Hash Auth System</h1>
                 <div className="mb-2 text-sm">
