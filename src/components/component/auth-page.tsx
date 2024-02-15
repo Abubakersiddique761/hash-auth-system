@@ -106,6 +106,9 @@ export function AuthPage() {
             <div className='bg-neutral-900 p-6 grid items-start select-none gap-4 rounded-2xl'>
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold">Hash Auth System</h1>
+                <div className="mb-2 text-sm">
+                  Collaborate on <Link href={"https://github.com/Abubakersiddique761/hash-auth-system"} target="_blank" className="text-green-500 hover:underline">GitHub</Link>
+                </div>
                 <div className="text-gray-500 dark:text-gray-400 text-sm">
                   <Badge variant={users.find(u => u.username === email)?.username ? 'default' : 'secondary'} className="text-xs">{users.find(u => u.username === email)?.username ? 'User Identified' : 'New User'}</Badge>
                 </div>
@@ -136,13 +139,13 @@ export function AuthPage() {
               </div>
             </div>
           </div>
-          <div className="mt-2 text-sm px-2">
+          <div className="mt-2 text-sm px-2 text-center">
             Made by <Link href={"https://abubakersiddique761.vercel.app/"} target="_blank" className="text-yellow-500 hover:underline">Abubaker Siddique</Link> & Usaid
           </div>
-          <div className="mt-3 text-sm px-2">
+          <div className="mt-3 text-sm px-2 text-center">
             Using
           </div>
-          <div className="text-sm px-2">
+          <div className="text-sm px-2 text-center">
             <Link href={"https://nextjs.org/"} target="_blank" className="text-rose-500 hover:underline">NextJS</Link> - Backend, <Link href={"https://ui.shadcn.com/"} target="_blank" className="text-rose-500 hover:underline">ShadCN</Link> - FrontEnd, & <Link href={"https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"} target="_blank" className="text-rose-500 hover:underline">Local Storage</Link> - For Database
           </div>
         </div>
